@@ -20,3 +20,45 @@ body {
 .portfolio-item {
   margin-bottom: 30px;
 }
+
+
+.navbar-nav {
+  width: 100%;
+  text-align: center;
+  > li {
+    float: none;
+    display: inline-block;
+  }
+}
+.center {
+  margin: 0 auto;
+}
+
+.bg-light {
+  background-color:#A33416!important;
+}
+
+.nav-link {
+  color:white!important;
+  font-weight: 500!important;
+  transition: all 0.5s;
+}
+
+.nav-link:hover{
+  color:#e0dede!important;
+}
+
+@media screen and (min-width: 992px){
+  .nav-link, .nav-item {
+    display: inline;
+  }
+  .fixed-top {
+    height:70px;
+  }
+}
+
+#title {
+  font-family: 'Rancho', cursive;
+  font-size:6rem;
+
+}
