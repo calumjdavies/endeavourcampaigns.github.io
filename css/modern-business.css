@@ -3,8 +3,17 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
+
 body {
   padding-top: 56px;
+  background-color: #1d1d1d;
+
+}
+.my-4 h1{
+  background-color: #00704A;
+  padding:0px;
+  color: #e5e5e5;
+  display: inline-block;
 }
 
 .carousel-item {
@@ -39,13 +48,13 @@ body {
 }
 
 .nav-link {
-  color:white!important;
+  color:#e0dede!important;
   font-weight: 500!important;
   transition: all 0.5s;
 }
 
 .nav-link:hover{
-  color:#e0dede!important;
+  color:#ffd203!important;
 }
 
 @media screen and (min-width: 992px){
@@ -59,6 +68,81 @@ body {
 
 #title {
   font-family: 'Rancho', cursive;
-  font-size:6rem;
+  font-size:4rem;
+  color: #e5e5e5;
+  letter-spacing: 2px;
 
+}
+
+h5,h1, .nav-link,p {
+  font-family: 'Share Tech Mono', serif;
+  font-weight: 700;
+
+  /* text-transform: uppercase; */
+}
+p, h5 {
+  font-weight: 500!important;
+  color: #e5e5e5;
+}
+.card {
+  border: 0px!important;
+  border-radius: 0px!important;
+}
+.card-text {
+  color: #333;
+}
+.blinking-cursor {
+  padding: 0px;
+  margin: 0px;
+  color:#FFD200;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #FFD200;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #FFD200;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #FFD200;
+  }
+}
+
+@-ms-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #FFD200;
+  }
+}
+
+@-o-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #FFD200;
+  }
 }
