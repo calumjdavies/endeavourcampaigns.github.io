@@ -14,8 +14,22 @@ body {
   padding:0px;
   color: #e5e5e5;
   display: inline-block;
-}
+  font-family: 'Cabin Sketch', sans-serif;
+  color: #FFD200;
 
+}
+.navbar-toggler {
+  border:0px!important;
+}
+.navbar-toggler:focus {
+  border:0px!important;
+}
+.hover-img {
+  transition: all 0.7s;
+}
+.hover-img:hover {
+  transform: rotate(10deg) scale(1.08);
+}
 .carousel-item {
   height: 65vh;
   min-height: 300px;
@@ -43,16 +57,18 @@ body {
   margin: 0 auto;
 }
 
-.bg-light {
-  background-color:#A33416!important;
+.fixed-top {
+  background-color:#A33416;
 }
 
 .nav-link {
-  color:#e0dede!important;
+  color:#333!important;
   font-weight: 500!important;
   transition: all 0.5s;
 }
-
+#contact-link {
+  color:white!important;
+}
 .nav-link:hover{
   color:#ffd203!important;
 }
@@ -65,25 +81,48 @@ body {
     height:70px;
   }
 }
-
+.card-img-top {
+  border-radius: 0px!important
+}
 #title {
-  font-family: 'Rancho', cursive;
+  font-family: 'Cabin Sketch', cursive;
   font-size:4rem;
   color: #e5e5e5;
-  letter-spacing: 2px;
+  letter-spacing: -3px;
+}
 
+.card-title a {
+  font-family: 'Cabin Sketch', cursive;
+  color: #333!important;
+  font-weight: 700!important;
+}
+.card-title a:hover {
+    text-decoration: none!important;
+    color:black!important;
 }
 
 h5,h1, .nav-link,p {
   font-family: 'Share Tech Mono', serif;
-  font-weight: 700;
+  font-weight: 100;
 
   /* text-transform: uppercase; */
 }
-p, h5 {
+p, h5, h5 > u {
   font-weight: 500!important;
   color: #e5e5e5;
+  text-decoration-color: #00704A!important;
+  transition: all 0.5s;
+  padding:1px 0;
 }
+h5 > u:hover {
+  cursor: pointer;
+  text-decoration-color: transparent!important;
+  background-color: #00704A;
+  color: #FFD200;
+}
+
+
+
 .card {
   border: 0px!important;
   border-radius: 0px!important;

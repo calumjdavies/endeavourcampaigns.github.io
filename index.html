@@ -9,7 +9,7 @@
   <meta name="author" content="">
 
   <title>Modern Business - Start Bootstrap Template</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Rancho|Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Open+Sans|Share+Tech+Mono&display=swap" rel="stylesheet">
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -37,8 +37,8 @@
           <li class="nav-item">
             <a class="nav-link" href="services.html">Copywriting</a>
           </li>
-          <li class="nav-item" style="background-color:#00704A; padding:8px 8px;">
-            <a  class="nav-link" href="contact.html">Get in Touch</a>
+          <li class="nav-item" style="background-color:#00704A; padding:6px 8px;">
+            <a id="contact-link" class="nav-link" href="contact.html">Get in Touch</a>
           </li>
         </ul>
       </div>
@@ -53,7 +53,7 @@
         <div class="container" style="background-color: #1d1d1d; width:100%!important; max-width:none!important;">
           <div style="padding:50px 0 20px 0;" class="text-center">
             <h1 id="title">Endeavour!</h1>
-            <p>The guys who launced a thousand campaigns*</p>
+            <p>Set sail for victory!</p>
           </div>
         </div>
 
@@ -64,26 +64,32 @@
   <!-- Page Content -->
   <div class="container">
 
-    <div class="my-4 text-center"> <h1><span style="color:#FFD200;">&#60;smooth&#62;</span><span class="blinking-cursor"> </span>sailing for your campaign <span style="color:#FFD200;">&#60;/smooth&#62;</span> </h1> </div>
-    <h5 class="text-center">Trusted experience in NationBuilder web development, digital campaigns and email content creation</h5>
+    <div class="my-4 text-center"> <h1><span class="blinking-cursor"> </span>Plain sailing for your campaign </h1> </div>
+    <h5 class="text-center mb-4"><u>Campaigns can be tricky.</u> Whether it's a small petition you want people to sign, a local candidate trying to be noticed, or an entire organisation working to election day - it can be stressful, boring, time consuming and everything inbetween. <br> <br> We can help you <u>build a digital campaign that drives <strong>action</strong></u> - the thing you need to win.</h5>
 
     <!-- Marketing Icons Section -->
     <div class="row">
-      <div class="col-lg-6 mb-6 mb-3">
+      <div class="col-sm-6 col-md-4 mb-6 mb-3">
         <div class="card h-100">
           <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+            <img class="text-center align-middle  hover-img mx-auto d-block" width="80%" style="margin:0 auto;" src="NationBuilder-logo.png" alt="">
+            <p class="card-text"></p>
           </div>
         </div>
       </div>
-      <div class="col-lg-6 mb-6 mb-3">
+      <div class="col-sm-6 col-md-4 mb-6 mb-3">
         <div class="card h-100">
-          <h4 class="card-header">Card Title</h4>
           <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
+            <img class="text-center align-middle hover-img mx-auto d-block" width="80%" style="margin:0 auto;" src="Copywriting.png" alt="">
+            <p class="card-text">.</p>
           </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 mb-6 mb-3">
+        <div class="card h-100">
+          <div class="card-body">
+            <img class="text-center align-middle  hover-img mx-auto d-block" width="80%" style="margin:0 auto;" src="zapier-logo.png" alt="">
+            <p class="card-text">.</p>
           </div>
         </div>
       </div>
@@ -91,25 +97,28 @@
     <!-- /.row -->
 
     <!-- Portfolio Section -->
-    <div class="my-4 text-center"> <h1><span style="color:#FFD200;">NationBuilder<span class="blinking-cursor">_</span></span> </h1> </div>
-    <p class="text-center">NationBuilder is the gold standard for political campaigning software. When used properly, it can help build your community and win your campaign.
-    </p>
+    <div class="my-4 text-center"><h1>NationBuilder</h1> </div>
+
 
     <div class="row">
-      <div class="col-lg-4 col-sm-6 portfolio-item">
+      <h5 class="text-center mb-4">NationBuilder is the <u>gold standard for political campaigning software.</u> When used properly, it can help <u>build your community and win your campaign.</u>
+      </h5>
+      <div class="col-lg-4 offset-lg-2 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <a href="#"><img class="card-img-top" src="survey.jpg" alt=""></a>
           <div class="card-body">
             <h4 class="card-title">
               <a href="#">Project One</a>
             </h4>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+
           </div>
         </div>
       </div>
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+          <a href="#"><img class="card-img-top" src="donate.jpeg" alt=""></a>
           <div class="card-body">
             <h4 class="card-title">
               <a href="#">Project Two</a>
@@ -118,21 +127,10 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-sm-6 portfolio-item">
-        <div class="card h-100">
-          <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <a href="#">Project Three</a>
-            </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
-          </div>
-        </div>
-      </div>
 </div>
-      <div class="my-4 text-center"> <h1><span style="color:#FFD200;">Copywriting<span class="blinking-cursor">_</span></span> </h1> </div>
-      <p class="text-center">Writing content can be easy in theory but daunting in practice. Finding the right words to explain an issue or ask for a donation can be difficult, so why not leave it to us? Every piece of "copy" is individually tailored to your specific needs.
-      </p>
+      <div class="my-4 text-center"> <h1>Copywriting</h1> </div>
+      <h5 class="text-center mb-4">Writing content can be easy in theory but daunting in practice. Finding the right words to explain an issue or ask for a donation can be difficult, so why not leave it to us? Every piece of "copy" is individually tailored to your specific needs.
+      </h5>
     <!-- /.row -->
 
     <!-- Features Section -->
